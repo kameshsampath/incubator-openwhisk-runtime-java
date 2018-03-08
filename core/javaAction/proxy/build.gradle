@@ -6,6 +6,12 @@ repositories {
 
 dependencies {
     compile 'com.google.code.gson:gson:2.6.2'
+    compile 'io.vertx:vertx-core:3.5.1'
+    compile 'io.vertx:vertx-web:3.5.1'
+    compile 'org.apache.commons:commons-lang3:3.7'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'io.rest-assured:rest-assured:3.0.7'
 }
 
 jar {
@@ -28,5 +34,5 @@ task oneJar(type: Jar) {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.10'
+    gradleVersion = '4.6'
 }

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package openwhisk.java.action;
+package openwhisk.java.action.java.action;
 
 import java.security.Permission;
 
